@@ -1,0 +1,30 @@
+#include "zasoby.h"
+IKONKA ICON "icon.ico"
+
+MUZYKA WAVE "soundtrack.wav"
+
+
+1 VERSIONINFO
+FILEVERSION 1, 0, 0, 0 // wersja pliku
+PRODUCTVERSION 1, 0, 0, 0 // wersja produktu
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "041504E4"
+        {
+            VALUE "CompanyName", "Kajzer" // nazwa firmy
+            VALUE "FileVersion", "1.0" // wersja pliku
+            VALUE "FileDescription", "Generator liczb losowych" // opis programu
+            VALUE "InternalName", "" // wewnêtrzna nazwa pliku
+            VALUE "LegalCopyright", "(C) Copyright by Kajzer" // prawa autorskie
+            VALUE "LegalTrademarks", "" // prawne znaki towarowe
+            VALUE "OriginalFilename", "Randomizator.exe" // oryginalna nazwa pliku
+            VALUE "ProductName", "Randomizator" // nazwa pliku
+            VALUE "ProductVersion", "1.0" // wersja produktu
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0415, 1252
+    }
+}
